@@ -1,5 +1,5 @@
 (() => {
-    let avengers: number = 23;
+    let avengers: number = 4;
 
     console.log(avengers);
 
@@ -14,4 +14,6 @@
     avengers = 123;
     avengers = Number('1a23');
     console.log({avengers})
+    let esPar: boolean = avengers % 2 === 0;
+    console.log(esPar)
 })();
