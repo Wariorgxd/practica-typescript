@@ -9,8 +9,8 @@
     else {
         console.log('Estamos salvados');
     }
-    avengers = 123;
-    avengers = Number('1a23');
+    avengers = 2;
+    // avengers = Number('1a23');
     console.log({ avengers });
     let esPar = avengers % 2 === 0;
     console.log(esPar);
