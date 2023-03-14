@@ -82,3 +82,13 @@ export function findUnique(arr:number[]):number {
 }
 
 findUnique([1,1,1,2,1,1,1]);
+
+export function oddOrEven(array: number[]) {
+    // enter code here
+    let sum:number = 0;
+    for (const number of array) {
+        sum += number;
+    }
+    return sum % 2 === 0 ? 'even' : 'odd';
+}
+
