@@ -4,14 +4,5 @@
     const greet = (name) => `Hola ${name}`;
     const saveTheWorld = () => `El mundo esta salvado`;
     let myFunction;
-    //* myFunction = 10;
-    //* console.log(myFunction);
-    //? myFunction = addNumbers;
-    //? console.log(myFunction(1,2));
-    //?
-    //? myFunction = greet;
-    //? console.log(myFunction('Sebastian'));
-    //?
-    //? myFunction = saveTheWorld;
-    //? console.log(myFunction());
 })();
+//# sourceMappingURL=function-type.js.map

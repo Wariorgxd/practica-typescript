@@ -8,8 +8,8 @@
             return `${firstName}  ${lastName}`;
         }
     };
-    //esto es un error porque noName no es un string
     let noName;
     const name = fullName('Tony', 'Stark', true);
     console.log(name);
 })();
+//# sourceMappingURL=args-default.js.map
