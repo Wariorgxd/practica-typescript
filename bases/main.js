@@ -1,58 +1,12 @@
 "use strict";
-(() => {
-    let flash = {
-        name: "Barry Allen",
-        age: 23,
-        powers: ['Super velocidad', 'Viajar en el tiempo'],
+var Validations;
+(function (Validations) {
+    Validations.validateText = (text) => {
+        return text.length > 3;
     };
-    let superman = {
-        name: "Clark Kent",
-        age: 60,
-        powers: ['Super fuerza', 'volar'],
+    const validateDate = (myDate) => {
+        return isNaN(myDate.valueOf());
     };
-})();
-(() => {
-    class Mutant {
-        constructor(name, realName, age) {
-            this.name = name;
-            this.realName = realName;
-            this.age = age;
-        }
-        mutantPower(id) {
-            return `${this.name} - ${this.age}`;
-        }
-    }
-})();
-(() => {
-    const client = {
-        name: 'Sebastian',
-        age: 25,
-        address: {
-            id: 1,
-            zip: '1231',
-            city: 'Colombia'
-        },
-        getFullAddress: function (id) {
-            throw new Error("Function not implemented.");
-        }
-    };
-    const client2 = {
-        name: 'Lisa',
-        age: 30,
-        address: {
-            id: 3,
-            zip: 'gsq221',
-            city: 'Quito'
-        },
-        getFullAddress: function (id) {
-            throw new Error("Function not implemented.");
-        }
-    };
-})();
-(() => {
-    let addNumbersFunction;
-    addNumbersFunction = (a, b) => {
-        return a + b;
-    };
-})();
+})(Validations || (Validations = {}));
+console.log(Validations.validateText('Hola'));
 //# sourceMappingURL=main.js.map
